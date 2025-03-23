@@ -1,0 +1,13 @@
+[package]
+name = "plugin-template"
+version = "0.0.1"
+authors = ["Alec Geatches"]
+edition = "2021"
+
+[dependencies]
+obs-wrapper = { path = "../..", version = "*" }
+log = "0.4.26"
+
+[lib]
+name = "plugin_template"
+crate-type = ["cdylib"]
